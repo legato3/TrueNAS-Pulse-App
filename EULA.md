@@ -1,7 +1,7 @@
 # End User License Agreement (EULA)
 Last updated: March 2026
 
-This End User License Agreement (“Agreement”) is between you and Chris [Your Last Name] (“Developer”) and governs your use of the TrueNAS Pulse iOS application (“App”).
+This End User License Agreement (“Agreement”) is between you and Christophe Cornelis (“Developer”) and governs your use of the TrueNAS Pulse iOS application (“App”).
 
 If the App is downloaded from the Apple App Store, Apple Inc. is not a party to this Agreement and has no responsibility for the App beyond providing the App Store platform.
 

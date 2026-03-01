@@ -90,4 +90,4 @@ legato3@gmail.com
 
 ---
 
-© 2026 Chris [Your Last Name]. All rights reserved.
+© 2026 Christophe Cornelis. All rights reserved.
