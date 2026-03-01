@@ -34,9 +34,9 @@
 
 @media (prefers-color-scheme: dark){
   :root{
-    --bg: #0b0f16;
-    --surface: #0f1623;
-    --surface-2: #111b2b;
+    --bg: #1a1c1d;
+    --surface: #222528;
+    --surface-2: #282b2f;
     --text: #e6edf7;
     --muted: rgba(230, 237, 247, 0.70);
     --border: rgba(230, 237, 247, 0.14);
@@ -53,9 +53,9 @@
 
 /* Manual override (optional) */
 :root[data-theme="dark"]{
-  --bg: #0b0f16;
-  --surface: #0f1623;
-  --surface-2: #111b2b;
+  --bg: #1a1c1d;
+  --surface: #222528;
+  --surface-2: #282b2f;
   --text: #e6edf7;
   --muted: rgba(230, 237, 247, 0.70);
   --border: rgba(230, 237, 247, 0.14);
@@ -139,12 +139,12 @@ a:hover{
 
 @media (prefers-color-scheme: dark){
   .docs-topbar{
-    background: rgba(11, 15, 22, 0.85);
+    background: rgba(26, 28, 29, 0.9);
   }
 }
 
 :root[data-theme="dark"] .docs-topbar{
-  background: rgba(11, 15, 22, 0.85);
+  background: rgba(26, 28, 29, 0.9);
 }
 
 :root[data-theme="light"] .docs-topbar{
@@ -193,11 +193,17 @@ a:hover{
 
 .docs-brand{
   display: inline-flex;
-  align-items: baseline;
-  gap: 0.4rem;
+  align-items: center;
+  gap: 0.5rem;
   color: var(--text) !important;
   font-weight: 700;
   font-size: 1.1rem;
+}
+
+.docs-brand-logo{
+  height: 32px;
+  width: auto;
+  display: block;
 }
 
 .docs-brand:hover{
@@ -291,6 +297,14 @@ a:hover{
   .docs-nav-panel{
     display: flex !important;
   }
+}
+
+/* Home hero logo */
+.home-hero-logo{
+  display: block;
+  max-width: 180px;
+  height: auto;
+  margin-bottom: 1.25rem;
 }
 
 /* ----- Reading card layout ----- */

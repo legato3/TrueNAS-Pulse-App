@@ -2,6 +2,8 @@
 title: TrueNAS Pulse
 ---
 
+![TrueNAS Pulse](assets/images/TrueNAS_Pulse.png){: .home-hero-logo }
+
 # TrueNAS Pulse — Public Documentation
 
 This site hosts official public documentation for the TrueNAS Pulse iOS app.
