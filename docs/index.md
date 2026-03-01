@@ -3,7 +3,7 @@ title: TrueNAS Pulse
 ---
 
 <div class="logo-hero-wrap">
-![TrueNAS Pulse](assets/images/TrueNAS_Pulse.png){: .home-hero-logo }
+  <img src="{{ '/assets/images/TrueNAS_Pulse.png' | relative_url }}" alt="TrueNAS Pulse" class="home-hero-logo">
 </div>
 
 # TrueNAS Pulse — Public Documentation
