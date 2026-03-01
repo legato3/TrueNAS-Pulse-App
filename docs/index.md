@@ -10,6 +10,8 @@ This site hosts official public documentation for the TrueNAS Pulse iOS app.
 - [Terms of Use](terms)
 - [EULA](eula)
 - [Changelog](changelog)
+- [Contact](contact)
+- [FAQ](faq)
 
 ## Disclaimer
 

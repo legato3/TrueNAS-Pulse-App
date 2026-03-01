@@ -1,4 +1,5 @@
 title: TrueNAS Pulse
+description: "Native iOS app for managing TrueNAS systems — snapshots, replication, cloud sync, and operational control."
 theme: jekyll-theme-cayman
 markdown: kramdown
 show_downloads: false

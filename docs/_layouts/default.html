@@ -5,33 +5,47 @@
     {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#0b0f16">
+    <link rel="icon" type="image/svg+xml" href="{{ "/assets/images/favicon.svg" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <header class="page-header" role="banner">
-      <div style="max-width: var(--maxw); margin: 0 auto; display:flex; align-items:flex-start; justify-content:space-between; gap: 12px;">
-        <div>
-          <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-        </div>
-        <button class="btn"
-          style="margin-top: 4px; padding: 0.45rem 0.8rem; font-size: 0.95rem;"
-          onclick="window.PulseTheme && window.PulseTheme.toggle()"
-          aria-label="Toggle theme">
-          Theme
+    <a href="#content" class="skip-link">Skip to content</a>
+    <header class="docs-topbar" role="banner">
+      <nav class="docs-nav">
+        <a href="{{ "/" | relative_url }}" class="docs-brand">
+          <span class="docs-brand-name">TrueNAS Pulse</span>
+          <span class="docs-brand-label">Docs</span>
+        </a>
+        <button class="docs-nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="docs-nav-toggle-bar"></span>
+          <span class="docs-nav-toggle-bar"></span>
+          <span class="docs-nav-toggle-bar"></span>
         </button>
-      </div>
+        <div class="docs-nav-panel" id="nav-panel">
+          <ul class="docs-nav-links">
+            <li><a href="{{ "/" | relative_url }}">Home</a></li>
+            <li><a href="{{ "/privacy/" | relative_url }}">Privacy</a></li>
+            <li><a href="{{ "/terms/" | relative_url }}">Terms</a></li>
+            <li><a href="{{ "/eula/" | relative_url }}">EULA</a></li>
+            <li><a href="{{ "/changelog/" | relative_url }}">Changelog</a></li>
+            <li><a href="{{ "/contact/" | relative_url }}">Contact</a></li>
+            <li><a href="{{ "/faq/" | relative_url }}">FAQ</a></li>
+          </ul>
+          <button class="docs-theme-btn" onclick="window.PulseTheme && window.PulseTheme.toggle()" aria-label="Toggle theme">Theme</button>
+        </div>
+      </nav>
     </header>
 
     <main id="content" class="main-content" role="main">
-      {{ content }}
+      <div class="reading-card">
+        {{ content }}
+      </div>
       <footer class="site-footer">
-        <span class="site-footer-owner">
-          © {{ site.time | date: "%Y" }} Christophe Cornelis. All rights reserved.
-        </span>
+        <span class="site-footer-owner">© {{ site.time | date: "%Y" }} Christophe Cornelis. All rights reserved.</span>
       </footer>
     </main>
 
     <script src="{{ "/assets/js/theme-toggle.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/nav-toggle.js" | relative_url }}"></script>
   </body>
 </html>
