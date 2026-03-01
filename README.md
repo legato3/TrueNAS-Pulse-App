@@ -50,3 +50,11 @@ For support or inquiries, please contact:
 ---
 
 © 2026 Christophe Cornelis. All rights reserved.
+
+---
+
+## Disclaimer
+
+TrueNAS® is a registered trademark of iXsystems, Inc.
+
+TrueNAS Pulse is an independent third-party application and is not affiliated with, endorsed by, or sponsored by iXsystems, Inc.
