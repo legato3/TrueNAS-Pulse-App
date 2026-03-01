@@ -2,11 +2,12 @@
 title: TrueNAS Pulse
 ---
 
-<div class="logo-hero-wrap">
-  <img src="{{ '/assets/images/TrueNAS_Pulse.png' | relative_url }}" alt="TrueNAS Pulse" class="home-hero-logo">
+<div class="home-hero">
+  <div class="logo-hero-wrap">
+    <img src="{{ '/assets/images/TrueNAS_Pulse.png' | relative_url }}" alt="TrueNAS Pulse" class="home-hero-logo">
+  </div>
+  <h1 class="home-hero-title">TrueNAS Pulse — Public Documentation</h1>
 </div>
-
-# TrueNAS Pulse — Public Documentation
 
 This site hosts official public documentation for the TrueNAS Pulse iOS app.
 

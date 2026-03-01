@@ -306,13 +306,19 @@ a:hover{
   }
 }
 
-/* Home hero logo (icon blue bg where logo sits) */
+/* Home hero: logo left of title */
+.home-hero{
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
 .logo-hero-wrap{
   background: var(--logo-bg);
   border-radius: var(--radius);
   padding: 1rem;
-  display: inline-block;
-  margin-bottom: 1.25rem;
+  flex-shrink: 0;
 }
 
 .home-hero-logo{
@@ -321,6 +327,10 @@ a:hover{
   width: 64px;
   height: auto;
   margin: 0;
+}
+
+.home-hero-title{
+  margin: 0 !important;
 }
 
 /* ----- Reading card layout ----- */
