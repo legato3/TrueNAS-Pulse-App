@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    {% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b0f16">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <div style="max-width: var(--maxw); margin: 0 auto; display:flex; align-items:flex-start; justify-content:space-between; gap: 12px;">
+        <div>
+          <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+          <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+        </div>
+        <button class="btn"
+          style="margin-top: 4px; padding: 0.45rem 0.8rem; font-size: 0.95rem;"
+          onclick="window.PulseTheme && window.PulseTheme.toggle()"
+          aria-label="Toggle theme">
+          Theme
+        </button>
+      </div>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+      <footer class="site-footer">
+        <span class="site-footer-owner">
+          © {{ site.time | date: "%Y" }} Chris. All rights reserved.
+        </span>
+      </footer>
+    </main>
+
+    <script src="{{ "/assets/js/theme-toggle.js" | relative_url }}"></script>
+  </body>
+</html>

@@ -1,3 +1,4 @@
 title: TrueNAS Pulse
 theme: jekyll-theme-cayman
 markdown: kramdown
+show_downloads: false
