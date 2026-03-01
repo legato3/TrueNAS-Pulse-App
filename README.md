@@ -45,7 +45,7 @@ See: [PRIVACY_POLICY.md](PRIVACY_POLICY.md)
 
 For support or inquiries, please contact:
 
-**legato3@gmail.com
+legato3@gmail.com
 
 ---
 
