@@ -3,4 +3,4 @@ title: Changelog
 permalink: /changelog/
 ---
 
-{% include_relative ../CHANGELOG.md %}
+{% include legal/CHANGELOG.md %}
