@@ -2,7 +2,9 @@
 title: TrueNAS Pulse
 ---
 
+<div class="logo-hero-wrap">
 ![TrueNAS Pulse](assets/images/TrueNAS_Pulse.png){: .home-hero-logo }
+</div>
 
 # TrueNAS Pulse — Public Documentation
 

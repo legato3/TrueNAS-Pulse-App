@@ -20,6 +20,7 @@
   /* Brand accents (grey/blue/red) */
   --accent: #2b6cff;     /* blue */
   --accent-2: #3b82f6;   /* alt blue */
+  --icon-bg: #2a4880;    /* logo blue */
   --danger: #ef4444;     /* red */
   --ok: #16a34a;         /* green (used sparingly) */
   --warn: #f59e0b;       /* amber */
@@ -43,6 +44,7 @@
 
     --accent: #5b8cff;
     --accent-2: #7aa2ff;
+    --icon-bg: #2d4a8c;
     --danger: #ff5a5f;
     --ok: #2dd4bf;   /* keep subtle in dark */
     --warn: #fbbf24;
@@ -61,6 +63,7 @@
   --border: rgba(230, 237, 247, 0.14);
   --accent: #5b8cff;
   --accent-2: #7aa2ff;
+  --icon-bg: #2d4a8c;
   --danger: #ff5a5f;
   --ok: #2dd4bf;
   --warn: #fbbf24;
@@ -76,6 +79,7 @@
   --border: rgba(15, 23, 42, 0.12);
   --accent: #2b6cff;
   --accent-2: #3b82f6;
+  --icon-bg: #2a4880;
   --danger: #ef4444;
   --ok: #16a34a;
   --warn: #f59e0b;
@@ -125,30 +129,28 @@ a:hover{
   display: none !important;
 }
 
-/* ----- Sticky top bar ----- */
+/* ----- Sticky top bar (icon blue where logo sits) ----- */
 .docs-topbar{
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(247, 248, 250, 0.8);
+  background: var(--icon-bg);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   padding: 0.75rem 1.25rem;
 }
 
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: light){
   .docs-topbar{
-    background: rgba(26, 28, 29, 0.9);
+    background: var(--icon-bg);
+    border-bottom-color: rgba(0, 0, 0, 0.15);
   }
 }
 
-:root[data-theme="dark"] .docs-topbar{
-  background: rgba(26, 28, 29, 0.9);
-}
-
 :root[data-theme="light"] .docs-topbar{
-  background: rgba(247, 248, 250, 0.8);
+  background: var(--icon-bg);
+  border-bottom-color: rgba(0, 0, 0, 0.15);
 }
 
 .docs-nav{
@@ -169,10 +171,10 @@ a:hover{
   width: 2.25rem;
   height: 2.25rem;
   padding: 0;
-  border: 1px solid var(--border);
+  border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 6px;
-  background: var(--surface);
-  color: var(--text);
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
   cursor: pointer;
 }
 
@@ -195,9 +197,13 @@ a:hover{
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  color: var(--text) !important;
+  color: rgba(255, 255, 255, 0.95) !important;
   font-weight: 700;
   font-size: 1.1rem;
+}
+
+.docs-brand:hover{
+  color: white !important;
 }
 
 .docs-brand-logo{
@@ -213,13 +219,13 @@ a:hover{
 .docs-brand-label{
   font-size: 0.7rem;
   font-weight: 500;
-  color: var(--muted) !important;
+  color: rgba(255, 255, 255, 0.7) !important;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
 
 .docs-brand:hover .docs-brand-label{
-  color: var(--muted) !important;
+  color: rgba(255, 255, 255, 0.85) !important;
 }
 
 .docs-nav-links{
@@ -231,26 +237,27 @@ a:hover{
 }
 
 .docs-nav-links a{
-  color: var(--muted) !important;
+  color: rgba(255, 255, 255, 0.85) !important;
   font-size: 0.9rem;
 }
 
 .docs-nav-links a:hover{
-  color: var(--accent) !important;
+  color: white !important;
 }
 
 .docs-theme-btn{
   padding: 0.4rem 0.75rem;
   font-size: 0.85rem;
   border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
   cursor: pointer;
 }
 
 .docs-theme-btn:hover{
-  border-color: rgba(43, 108, 255, 0.35);
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 /* Mobile nav */
@@ -266,8 +273,8 @@ a:hover{
     right: 0;
     flex-direction: column;
     align-items: stretch;
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
+    background: var(--icon-bg);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
     box-shadow: var(--shadow);
     padding: 1rem 1.25rem;
     gap: 1rem;
@@ -299,13 +306,21 @@ a:hover{
   }
 }
 
-/* Home hero logo */
+/* Home hero logo (icon blue bg where logo sits) */
+.logo-hero-wrap{
+  background: var(--icon-bg);
+  border-radius: var(--radius);
+  padding: 1rem;
+  display: inline-block;
+  margin-bottom: 1.25rem;
+}
+
 .home-hero-logo{
   display: block;
   max-width: 64px;
   width: 64px;
   height: auto;
-  margin-bottom: 1rem;
+  margin: 0;
 }
 
 /* ----- Reading card layout ----- */
