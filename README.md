@@ -29,15 +29,14 @@ The app is designed with an emphasis on clarity, operational safety, and profess
 
 ---
 
-## Changelog
+## Documentation
 
-See: [CHANGELOG.md](CHANGELOG.md)
+Public documentation is hosted at [legato3.github.io/TrueNAS-Pulse-App](https://legato3.github.io/TrueNAS-Pulse-App/):
 
----
-
-## Privacy Policy
-
-See: [PRIVACY_POLICY.md](PRIVACY_POLICY.md)
+- [Changelog](https://legato3.github.io/TrueNAS-Pulse-App/changelog/)
+- [Privacy Policy](https://legato3.github.io/TrueNAS-Pulse-App/privacy/)
+- [EULA](https://legato3.github.io/TrueNAS-Pulse-App/eula/)
+- [Terms of Use](https://legato3.github.io/TrueNAS-Pulse-App/terms/)
 
 ---
 

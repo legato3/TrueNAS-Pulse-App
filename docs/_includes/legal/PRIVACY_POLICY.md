@@ -30,8 +30,15 @@ The app may store limited configuration data locally on your device, such as:
 - Saved server connections
 - Interface preferences
 - Operational settings (e.g., guarded mode)
+- API tokens, stored exclusively in the iOS Keychain
 
 This information remains on your device and is not transmitted to the developer.
+
+---
+
+## Local Notifications
+
+If you enable alert notifications, the app may deliver local notifications to your device when new alerts are detected on your TrueNAS server. These notifications are generated entirely on-device from data fetched directly from your server. No notification content is routed through Apple Push Notification service (APNs) or any external server. You can disable notifications at any time in iOS Settings.
 
 ---
 
