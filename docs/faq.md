@@ -31,4 +31,4 @@ Guarded mode is a safety feature that requires an extra confirmation step before
 
 ## How do I report a bug or request a feature?
 
-Contact **legato3@gmail.com** with a clear description of the issue or request. Please include your device model and iOS version when reporting bugs.
+Contact **chris@phobos-cc.be** with a clear description of the issue or request. Please include your device model and iOS version when reporting bugs.

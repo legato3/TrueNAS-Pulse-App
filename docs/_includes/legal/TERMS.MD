@@ -69,7 +69,7 @@ These Terms may be updated periodically. Continued use of the App after updates 
 
 For questions regarding these Terms, contact:
 
-legato3@gmail.com
+chris@phobos-cc.be
 
 ---
 

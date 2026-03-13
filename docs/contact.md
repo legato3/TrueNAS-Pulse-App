@@ -7,7 +7,7 @@ permalink: /contact/
 
 For support, feature requests, or general inquiries about TrueNAS Pulse, please reach out:
 
-**legato3@gmail.com**
+**chris@phobos-cc.be**
 
 ---
 

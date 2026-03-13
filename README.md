@@ -44,7 +44,7 @@ Public documentation is hosted at [legato3.github.io/TrueNAS-Pulse-App](https://
 
 For support or inquiries, please contact:
 
-legato3@gmail.com
+chris@phobos-cc.be
 
 ---
 
