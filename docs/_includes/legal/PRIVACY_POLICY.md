@@ -93,7 +93,7 @@ Updates will be reflected in the "Last updated" date above.
 
 If you have any questions about this Privacy Policy, please contact:
 
-chris@phobos-cc.be
+[chris@phobos-cc.be](mailto:chris@phobos-cc.be)
 
 ---
 

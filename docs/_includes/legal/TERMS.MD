@@ -69,7 +69,7 @@ These Terms may be updated periodically. Continued use of the App after updates 
 
 For questions regarding these Terms, contact:
 
-chris@phobos-cc.be
+[chris@phobos-cc.be](mailto:chris@phobos-cc.be)
 
 ---
 
