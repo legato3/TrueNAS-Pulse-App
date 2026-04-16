@@ -4,7 +4,7 @@ All notable changes to TrueNAS Pulse are documented here.
 
 ---
 
-## [1.1.0] - 2026-04-18
+## [1.0.2] - 2026-04-18
 
 ### Added
 - System Health: expanded security checks, calmer scoring, clearer severity labels
