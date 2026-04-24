@@ -4,6 +4,16 @@ All notable changes to TrueNAS Pulse are documented here.
 
 ---
 
+## [1.0.3] - 2026-04-25
+
+### Changed
+- Improved System Health summaries with clearer READY, WARNING, and CRITICAL status details
+- Improved Push Relay enrollment handling to prevent sync race conditions
+
+### Fixed
+- Dashboard refresh and navigation issues that could affect routing or stale data handling
+- Live Activity build compatibility with newer Swift/Xcode versions
+
 ## [1.0.2] - 2026-04-18
 
 ### Added
