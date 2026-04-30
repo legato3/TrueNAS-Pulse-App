@@ -19,7 +19,7 @@ Yes. TrueNAS Pulse connects directly to your own TrueNAS server. You configure t
 
 ## Is my data sent to the developer or any third party?
 
-No. TrueNAS Pulse does not collect, store, or transmit personal data. All communication occurs between your iOS device and your TrueNAS system. See the [Privacy Policy](../privacy/) for details.
+No. TrueNAS Pulse does not collect, store, or transmit personal data. All communication occurs between your iOS device and your TrueNAS system. See the [Privacy Policy]({{ "/privacy/" | relative_url }}) for details.
 
 ---
 
