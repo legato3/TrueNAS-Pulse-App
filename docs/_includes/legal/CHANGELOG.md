@@ -4,27 +4,6 @@ All notable changes to TrueNAS Pulse are documented here.
 
 ---
 
-## [1.0.4] - 2026-04-30
-
-### New Features
-- Expanded system and alert settings
-- Added data protection coverage, cloud backup visibility, and update rollback support
-- New tools to review share access and risky configurations
-- Improved Activity Stream incident context
-- Added richer workload diagnostics
-
-### Improvements
-- Hardened Cloud Push relay setup with clearer feedback
-- Improved storage reporting and dataset insights
-- Better update handling and TrueNAS SCALE 26 compatibility
-- Safer refresh settings and smoother controls
-- Key settings remain accessible during connection issues
-
-### Fixes
-- Improved dashboard performance
-- Fixed search, audit log, and loading issues
-- General stability improvements
-
 ## [1.0.3] - 2026-04-25
 
 ### Changed
