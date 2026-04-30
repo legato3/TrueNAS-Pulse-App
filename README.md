@@ -22,7 +22,7 @@ TrueNAS Pulse provides:
 - Replication monitoring
 - Cloud sync visibility
 - Manual task execution
-- Guarded operation mode for sensitive actions
+- Control operation mode for sensitive actions
 - Clear system health and task status overview
 
 The app is designed with an emphasis on clarity, operational safety, and professional-grade control surfaces.

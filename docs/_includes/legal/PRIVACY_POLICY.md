@@ -29,7 +29,7 @@ The app may store limited configuration data locally on your device, such as:
 
 - Saved server connections
 - Interface preferences
-- Operational settings (e.g., guarded mode)
+- Operational settings (e.g., control mode)
 - API tokens, stored exclusively in the iOS Keychain
 
 This information remains on your device and is not transmitted to the developer.

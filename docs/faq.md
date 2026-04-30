@@ -23,9 +23,9 @@ No. TrueNAS Pulse does not collect, store, or transmit personal data. All commun
 
 ---
 
-## What is Guarded Mode?
+## What is Control Mode?
 
-Guarded mode is a safety feature that requires an extra confirmation step before sensitive actions (e.g., deletions, replications). It helps reduce accidental changes to your TrueNAS system.
+Control mode is a safety feature that requires an extra confirmation step before sensitive actions (e.g., deletions, replications). It helps reduce accidental changes to your TrueNAS system.
 
 ---
 
