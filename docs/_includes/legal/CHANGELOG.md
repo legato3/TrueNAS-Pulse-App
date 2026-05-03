@@ -4,6 +4,17 @@ All notable changes to TrueNAS Pulse are documented here.
 
 ---
 
+## [1.0.4] - 2026-04-30
+
+### Changed
+- Clearer health and alert screens, so important server issues are easier to review.
+- Better visibility into backups, data protection tasks, and TrueNAS updates.
+- More useful storage, dataset, share access, and configuration checks.
+- Activity entries now give more context when something needs attention.
+- Dashboard, search, audit log, and loading flows are smoother and more reliable.
+- Key settings stay available more often when the server connection is interrupted.
+- Improved compatibility with newer TrueNAS SCALE releases.
+
 ## [1.0.3] - 2026-04-25
 
 ### Changed
