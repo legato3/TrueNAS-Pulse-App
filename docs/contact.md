@@ -17,7 +17,7 @@ The fastest path. Public, searchable, and tracked.
 
 Support, press, and everything else.
 
-**[chris@phobos-cc.be](mailto:chris@phobos-cc.be)**
+**[support@truenaspulse.com](mailto:support@truenaspulse.com)**
 
 ## Before you write
 
