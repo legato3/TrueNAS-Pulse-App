@@ -5,13 +5,13 @@ permalink: /contact/
 
 # Contact
 
-TrueNAS Pulse is built and maintained by Christophe Cornelis. There is no support team, no ticketing system, and no automated triage — just one engineer who reads everything that comes in and responds.
+TrueNAS Pulse is built and maintained by Christophe Cornelis. There is no support team and no automated triage — just one engineer who reads everything that comes in and responds.
 
 ## Bug reports
 
-The fastest path. Public, searchable, and tracked.
+The fastest path. Structured form, categorised, routed straight to me.
 
-**[Open a GitHub issue](https://github.com/legato3/TrueNAS-Pulse-App/issues)**
+**[Open a support ticket](https://truenaspulse.com/support)**
 
 ## Email
 
