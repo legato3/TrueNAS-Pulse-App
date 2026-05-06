@@ -7,17 +7,17 @@
 **A native iPhone client for TrueNAS SCALE — built for sysadmins, operators, and homelab users who need fast infrastructure visibility and safe remote remediation away from a browser.**
 
 [![Download on the App Store](https://img.shields.io/badge/Download_on_the-App_Store-0D96F6?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/app/id6759870893)
-[![Website](https://img.shields.io/badge/Website-pulse.phobos--cc.be-2563eb?style=for-the-badge)](https://pulse.phobos-cc.be)
+[![Website](https://img.shields.io/badge/Website-pulse.phobos--cc.be-2563eb?style=for-the-badge)](https://truenaspulse.com)
 [![iOS 17.6+](https://img.shields.io/badge/iOS-17.6+-000000?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/app/id6759870893)
 
-[Website](https://pulse.phobos-cc.be) ·
+[Website](https://truenaspulse.com) ·
 [App Store](https://apps.apple.com/app/id6759870893) ·
-[Features](https://pulse.phobos-cc.be/features) ·
-[Screenshots](https://pulse.phobos-cc.be/screenshots) ·
-[Pro](https://pulse.phobos-cc.be/pro) ·
-[Changelog](https://pulse.phobos-cc.be/changelog) ·
-[Privacy](https://pulse.phobos-cc.be/privacy) ·
-[FAQ](https://pulse.phobos-cc.be/faq)
+[Features](https://truenaspulse.com/features) ·
+[Screenshots](https://truenaspulse.com/screenshots) ·
+[Pro](https://truenaspulse.com/pro) ·
+[Changelog](https://truenaspulse.com/changelog) ·
+[Privacy](https://truenaspulse.com/privacy) ·
+[FAQ](https://truenaspulse.com/faq)
 
 </div>
 
@@ -74,7 +74,7 @@ TrueNAS Pulse is an independent third-party iPhone client for TrueNAS SCALE. The
 - iCloud Sync (Pro) covers your server list and monitors via your **own private iCloud Key-Value Store** — credentials never travel.
 - Local action log — nothing leaves the device.
 
-Read the full [Privacy Policy](https://pulse.phobos-cc.be/privacy).
+Read the full [Privacy Policy](https://truenaspulse.com/privacy).
 
 ## Requirements
 
@@ -92,27 +92,27 @@ The welcome screen has a **Preview with Sample Data** option that loads the full
 
 ## Beta / TestFlight
 
-A public TestFlight beta is available with upcoming features ahead of App Store releases. The same Free/Pro pricing applies inside the beta. [Join the beta](https://testflight.apple.com/join/r3xzH5eE) or find the link at [pulse.phobos-cc.be](https://pulse.phobos-cc.be).
+A public TestFlight beta is available with upcoming features ahead of App Store releases. The same Free/Pro pricing applies inside the beta. [Join the beta](https://testflight.apple.com/join/r3xzH5eE) or find the link at [truenaspulse.com](https://truenaspulse.com).
 
 ## Documentation
 
-Marketing site, walkthrough, and full feature inventory: **[pulse.phobos-cc.be](https://pulse.phobos-cc.be)**
+Marketing site, walkthrough, and full feature inventory: **[truenaspulse.com](https://truenaspulse.com)**
 
 This repository hosts the public documentation pages served at [legato3.github.io/TrueNAS-Pulse-App](https://legato3.github.io/TrueNAS-Pulse-App/):
 
 | Page | Source | Live |
 | --- | --- | --- |
-| Changelog | [`docs/changelog.md`](docs/changelog.md) | [pulse.phobos-cc.be/changelog](https://pulse.phobos-cc.be/changelog) |
-| Privacy Policy | [`docs/privacy.md`](docs/privacy.md) | [pulse.phobos-cc.be/privacy](https://pulse.phobos-cc.be/privacy) |
-| EULA | [`docs/eula.md`](docs/eula.md) | [pulse.phobos-cc.be/eula](https://pulse.phobos-cc.be/eula) |
-| Terms of Use | [`docs/terms.md`](docs/terms.md) | [pulse.phobos-cc.be/terms](https://pulse.phobos-cc.be/terms) |
-| FAQ | [`docs/faq.md`](docs/faq.md) | [pulse.phobos-cc.be/faq](https://pulse.phobos-cc.be/faq) |
-| Contact | [`docs/contact.md`](docs/contact.md) | [pulse.phobos-cc.be/contact](https://pulse.phobos-cc.be/contact) |
+| Changelog | [`docs/changelog.md`](docs/changelog.md) | [truenaspulse.com/changelog](https://truenaspulse.com/changelog) |
+| Privacy Policy | [`docs/privacy.md`](docs/privacy.md) | [truenaspulse.com/privacy](https://truenaspulse.com/privacy) |
+| EULA | [`docs/eula.md`](docs/eula.md) | [truenaspulse.com/eula](https://truenaspulse.com/eula) |
+| Terms of Use | [`docs/terms.md`](docs/terms.md) | [truenaspulse.com/terms](https://truenaspulse.com/terms) |
+| FAQ | [`docs/faq.md`](docs/faq.md) | [truenaspulse.com/faq](https://truenaspulse.com/faq) |
+| Contact | [`docs/contact.md`](docs/contact.md) | [truenaspulse.com/contact](https://truenaspulse.com/contact) |
 
 ## Support
 
-- **Bug reports & feature requests:** [pulse.phobos-cc.be/support](https://pulse.phobos-cc.be/support)
-- **Email:** [chris@phobos-cc.be](mailto:chris@phobos-cc.be)
+- **Bug reports & feature requests:** [truenaspulse.com/support](https://truenaspulse.com/support)
+- **Email:** [support@truenaspulse.com](mailto:support@truenaspulse.com)
 
 When reporting an issue, please include:
 
@@ -132,7 +132,7 @@ TrueNAS Pulse is an independent third-party application and is **not affiliated 
 
 Documentation in this repository is licensed under the terms in [LICENSE](LICENSE).
 
-The TrueNAS Pulse application itself is closed source. Use of the app is governed by the [End User License Agreement](https://pulse.phobos-cc.be/eula).
+The TrueNAS Pulse application itself is closed source. Use of the app is governed by the [End User License Agreement](https://truenaspulse.com/eula).
 
 ---
 
