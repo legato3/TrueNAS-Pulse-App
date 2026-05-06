@@ -111,7 +111,7 @@ This repository hosts the public documentation pages served at [legato3.github.i
 
 ## Support
 
-- **Bug reports & feature requests:** [open an issue](https://github.com/legato3/TrueNAS-Pulse-App/issues) in this repository.
+- **Bug reports & feature requests:** [pulse.phobos-cc.be/support](https://pulse.phobos-cc.be/support)
 - **Email:** [chris@phobos-cc.be](mailto:chris@phobos-cc.be)
 
 When reporting an issue, please include:
