@@ -5,7 +5,7 @@ permalink: /contact/
 
 # Contact
 
-TrueNAS Pulse is built and maintained by Christophe Cornelis. There is no support team and no automated triage — just one engineer who reads everything that comes in and responds.
+TrueNAS Pulse is built and maintained by Christophe Cornelis. The support form routes tickets directly to me — no support team in between, no automated triage, no escalation chain. Just one engineer reading everything that comes in and replying personally.
 
 ## Bug reports
 
