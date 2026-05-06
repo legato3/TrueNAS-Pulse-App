@@ -14,6 +14,7 @@
 [App Store](https://apps.apple.com/app/id6759870893) ·
 [Features](https://pulse.phobos-cc.be/features) ·
 [Screenshots](https://pulse.phobos-cc.be/screenshots) ·
+[Pro](https://pulse.phobos-cc.be/pro) ·
 [Changelog](https://pulse.phobos-cc.be/changelog) ·
 [Privacy](https://pulse.phobos-cc.be/privacy) ·
 [FAQ](https://pulse.phobos-cc.be/faq)
@@ -27,20 +28,21 @@
 
 ## What it does
 
-TrueNAS Pulse is an independent third-party iPhone client for TrueNAS SCALE. The free tier covers live monitoring, 1-hour history, alerts, storage health, jobs, one included local monitor, and read-only operational visibility. **TrueNAS Pulse Pro** is a one-time purchase that unlocks the complete operator toolset: fleet view, lifecycle controls, advanced reporting, log streaming, terminal, and the full configuration mutation surface.
+TrueNAS Pulse is an independent third-party iPhone client for TrueNAS SCALE. The free tier covers live monitoring, 1-hour history, alerts, storage health, jobs, one proactive monitor, and read-only operational visibility. **TrueNAS Pulse Pro** is a one-time purchase that unlocks the complete operator toolset: fleet view, lifecycle controls, advanced reporting, log streaming, Server Console, and more.
 
 ### Free
 
 - Live dashboard with CPU, memory, network, and storage status
 - 1-hour reporting history for CPU, memory, and network
 - ZFS pool health, disk detail, temperature, and dataset visibility
-- Alerts, jobs, services, apps, and VM status
-- One included local monitor on the active server
+- Alerts, jobs, services, apps, and VM status — with alert acknowledgement
+- One proactive monitor on the active server
 - Network interface status and routing overview
 - Filesystem browser (read-only) and audit log viewer
-- Up to 2 servers with fast server switching
+- Manual ZFS snapshot creation
 - Container lifecycle (TrueNAS 26 native containers)
 - Home Screen widget for glanceable server health
+- Up to 2 servers with fast server switching
 
 ### Pro
 
@@ -56,7 +58,7 @@ TrueNAS Pulse is an independent third-party iPhone client for TrueNAS SCALE. The
 - Network editing, share management, and service configuration
 - Data protection controls, batch actions, job abort, system update install
 - Reboot, shutdown, support bundle, config backup & restore
-- Terminal — SSH from your phone
+- Server Console — guarded server access from your phone
 - iCloud Sync · Live Activities · Dynamic Island
 - Up to 8 servers
 
@@ -70,6 +72,7 @@ TrueNAS Pulse is an independent third-party iPhone client for TrueNAS SCALE. The
 - High-risk actions (reboot, shutdown, disk wipe, snapshot rollback) additionally require an arming toggle plus biometric authentication.
 - No analytics, no telemetry, no third-party SDKs. By default, the app talks only to the TrueNAS servers you configure. The optional Cloud Push Relay (off by default, configured per server) enables background notifications — it never receives API tokens, credentials, passwords, or secrets.
 - iCloud Sync (Pro) covers your server list and monitors via your **own private iCloud Key-Value Store** — credentials never travel.
+- Local action log — nothing leaves the device.
 
 Read the full [Privacy Policy](https://pulse.phobos-cc.be/privacy).
 
@@ -81,11 +84,15 @@ Read the full [Privacy Policy](https://pulse.phobos-cc.be/privacy).
 
 ## Built natively for iOS
 
-SwiftUI · WebSocket JSON-RPC · MVVM · iOS Keychain · Strict TLS · Live Activities · Dynamic Island · Home Screen widgets · App Intents · Bonjour discovery. No third-party SDK, no cross-platform runtime — nothing to ship cross-platform.
+SwiftUI · WebSocket JSON-RPC · MVVM · iOS Keychain · Strict TLS · Live Activities · Dynamic Island · Home Screen widgets · App Intents. No third-party SDK, no cross-platform runtime — nothing to ship cross-platform.
 
 ## Try it without a server
 
 The welcome screen has a **Preview with Sample Data** option that loads the full UI with realistic read-only fixture data. All five tabs are navigable; control actions are visible but disabled. Inside the app, you can also enter Demo Mode anytime via *Settings → Demo → Enter Demo Mode*.
+
+## Beta / TestFlight
+
+A public TestFlight beta is available with upcoming features ahead of App Store releases. The same Free/Pro pricing applies inside the beta. [Join the beta](https://testflight.apple.com/join/r3xzH5eE) or find the link at [pulse.phobos-cc.be](https://pulse.phobos-cc.be).
 
 ## Documentation
 
