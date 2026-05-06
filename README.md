@@ -7,7 +7,7 @@
 **A native iPhone client for TrueNAS SCALE — built for sysadmins, operators, and homelab users who need fast infrastructure visibility and safe remote remediation away from a browser.**
 
 [![Download on the App Store](https://img.shields.io/badge/Download_on_the-App_Store-0D96F6?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/app/id6759870893)
-[![Website](https://img.shields.io/badge/Website-pulse.phobos--cc.be-2563eb?style=for-the-badge)](https://truenaspulse.com)
+[![Website](https://img.shields.io/badge/Website-truenaspulse.com-2563eb?style=for-the-badge)](https://truenaspulse.com)
 [![iOS 17.6+](https://img.shields.io/badge/iOS-17.6+-000000?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/app/id6759870893)
 
 [Website](https://truenaspulse.com) ·
