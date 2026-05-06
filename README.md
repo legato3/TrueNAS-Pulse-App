@@ -68,7 +68,7 @@ TrueNAS Pulse is an independent third-party iPhone client for TrueNAS SCALE. The
 - Strict TLS validation by default; per-server self-signed certificate opt-in with SHA-256 fingerprint pinning.
 - All state-changing actions pass through **Control Mode** — confirmation gate, persistent banner, 5-minute auto-expire.
 - High-risk actions (reboot, shutdown, disk wipe, snapshot rollback) additionally require an arming toggle plus biometric authentication.
-- No analytics, no telemetry, no third-party SDKs, no developer-operated backend. The app talks only to the TrueNAS servers you configure.
+- No analytics, no telemetry, no third-party SDKs. By default, the app talks only to the TrueNAS servers you configure. The optional Cloud Push Relay (off by default, configured per server) enables background notifications — it never receives API tokens, credentials, passwords, or secrets.
 - iCloud Sync (Pro) covers your server list and monitors via your **own private iCloud Key-Value Store** — credentials never travel.
 
 Read the full [Privacy Policy](https://pulse.phobos-cc.be/privacy).
