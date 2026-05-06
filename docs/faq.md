@@ -109,4 +109,4 @@ Yes. Beta builds include upcoming features ahead of the App Store release. The s
 
 ## Where do I report a bug?
 
-Open an issue at [github.com/legato3/TrueNAS-Pulse-App](https://github.com/legato3/TrueNAS-Pulse-App/issues), or email [chris@phobos-cc.be](mailto:chris@phobos-cc.be).
+Open an issue at [github.com/legato3/TrueNAS-Pulse-App](https://github.com/legato3/TrueNAS-Pulse-App/issues), or email [support@truenaspulse.com](mailto:support@truenaspulse.com).
