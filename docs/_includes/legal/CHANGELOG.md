@@ -4,7 +4,7 @@ All notable changes to TrueNAS Pulse are documented here.
 
 ---
 
-## [1.0.4] - 2026-04-30
+## [1.0.4] - 2026-05-04
 
 ### Changed
 - Clearer health and alert screens, so important server issues are easier to review.
@@ -25,7 +25,7 @@ All notable changes to TrueNAS Pulse are documented here.
 - Dashboard refresh and navigation issues that could affect routing or stale data handling
 - Live Activity build compatibility with newer Swift/Xcode versions
 
-## [1.0.2] - 2026-04-18
+## [1.0.2] - 2026-04-16
 
 ### Added
 - System Health: expanded security checks, calmer scoring, clearer severity labels
@@ -50,7 +50,7 @@ All notable changes to TrueNAS Pulse are documented here.
 ### Fixed
 - Compatibility fixes
 
-## [1.0.0] - 2026-04-08
+## [1.0.0] - 2026-04-07
 
 ### Added
 - Initial App Store release
