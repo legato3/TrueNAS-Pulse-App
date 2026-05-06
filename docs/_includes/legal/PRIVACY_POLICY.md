@@ -53,7 +53,7 @@ If this policy ever changes, the change will be summarised here with a new "last
 
 ## Contact
 
-Questions about this policy: [chris@phobos-cc.be](mailto:chris@phobos-cc.be)
+Questions about this policy: [support@truenaspulse.com](mailto:support@truenaspulse.com)
 
 ---
 
