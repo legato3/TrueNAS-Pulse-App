@@ -1,99 +1,59 @@
 # Privacy Policy
-Last updated: April 2026
+Last updated: May 2026
 
 ## Overview
 
-TrueNAS Pulse respects your privacy.
-
-This application is designed to operate directly between your iOS device and your self-hosted TrueNAS system. The app does not collect, store, sell, or share personal data.
+TrueNAS Pulse does not collect personal data through analytics, tracking, advertising, or crash-reporting SDKs.
 
 ---
 
-## Data Collection
+## What the app does
 
-TrueNAS Pulse does **not** collect personal data.
+TrueNAS Pulse is direct by default. It communicates with the TrueNAS servers that you configure and contains no in-app analytics, tracking, advertising, crash-reporting, or generic telemetry SDKs.
 
-The app does not:
-
-- Track usage behavior
-- Collect analytics
-- Use advertising SDKs
-- Share information with third parties
-- Store user data on external servers
+If you explicitly enable Cloud Push Relay for background alert notifications, limited alert summary data may be routed through the relay only for notification delivery. The relay is off by default, configured per server, and API tokens, credentials, passwords, and secrets are never sent to it.
 
 ---
 
-## Local Data Storage
+## Data not collected
 
-The app may store limited configuration data locally on your device, such as:
-
-- Saved server connections
-- Interface preferences
-- Operational settings (e.g., control mode)
-- API tokens, stored exclusively in the iOS Keychain
-
-This information remains on your device and is not transmitted to the developer.
+- No analytics or tracking SDKs
+- No crash reporting services
+- No advertising identifiers
+- No data shared with third parties
+- No background alert relay traffic unless you explicitly opt in per server
 
 ---
 
-## Local Notifications
+## Where your data lives
 
-If you enable alert notifications, the app may deliver local notifications to your device when new alerts are detected on your TrueNAS server. These notifications are generated entirely on-device from data fetched directly from your server. No notification content is routed through Apple Push Notification service (APNs) or any external server. You can disable notifications at any time in iOS Settings.
+API tokens are stored in the iOS Keychain on your device. They are never synced to iCloud and never leave your phone.
 
----
+Server metadata (URLs, names, ordering) is stored locally using UserDefaults on your device.
 
-## Network Communication
+Local diagnostics, when present, stay on the device and are never uploaded.
 
-TrueNAS Pulse communicates directly with your configured TrueNAS server using the credentials you provide.
+If you enable iCloud Sync (Pro), your monitor configurations and server list sync across your devices via Apple's iCloud Key-Value Store. API tokens never leave the Keychain — iCloud Sync does not transport credentials.
 
-All communication occurs between:
-
-- Your iOS device
-- Your TrueNAS system
-
-The developer has no access to this communication.
+If you enable Cloud Push Relay, only alert summaries are relayed for push delivery while the app is backgrounded or closed. API tokens, credentials, passwords, and secrets never leave the device.
 
 ---
 
-## Third-Party Services
+## App Store privacy details
 
-TrueNAS Pulse does not integrate with third-party analytics, advertising networks, or data brokers.
-
-If future versions introduce optional services, this policy will be updated accordingly.
+For App Store Connect's "Data Not Collected" disclosure: TrueNAS Pulse collects no data from users, links no data to identity, and does no tracking.
 
 ---
 
-## Data Security
+## Changes to this policy
 
-Security depends primarily on:
-
-- The configuration of your TrueNAS system
-- Your network environment
-- Your device security practices
-
-Users are responsible for securing their TrueNAS servers and API credentials.
-
----
-
-## Children's Privacy
-
-TrueNAS Pulse is intended for system administrators and technical users.  
-It is not designed for children under 13.
-
----
-
-## Changes to This Policy
-
-This Privacy Policy may be updated from time to time.  
-Updates will be reflected in the "Last updated" date above.
+If this policy ever changes, the change will be summarised here with a new "last updated" date. The app itself does not have the means to notify you of a change because there is no telemetry channel — please check this page when updating to a new version if you want to review what (if anything) changed.
 
 ---
 
 ## Contact
 
-If you have any questions about this Privacy Policy, please contact:
-
-[chris@phobos-cc.be](mailto:chris@phobos-cc.be)
+Questions about this policy: [chris@phobos-cc.be](mailto:chris@phobos-cc.be)
 
 ---
 
