@@ -4,6 +4,20 @@ All notable changes to TrueNAS Pulse are documented here.
 
 ---
 
+## [1.0.5] - 2026-05-12
+
+### Added
+- Richer disk, app workload, container, and protection audit details.
+
+### Changed
+- Improved dashboard, reporting, fleet, and data protection performance.
+- Hardened server switching, WebSocket cancellation, refresh behavior, and stale data handling.
+- Strengthened Cloud Push enrollment, relay security, and connection error feedback.
+- Refined empty states, alert copy, diagnostics, storage guidance, and operation status wording throughout the app.
+
+### Fixed
+- Duplicate guarded action submissions and several runtime action edge cases.
+
 ## [1.0.4] - 2026-05-04
 
 ### Changed
